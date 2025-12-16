@@ -1,0 +1,120 @@
+/* ==========================================================================
+   Pulse skin
+   ========================================================================== */
+
+/* Colors */
+$background-color: #0b0f2b !default;
+$text-color: #f8fbff !default;
+$primary-color: #7cffcb !default;
+$border-color: mix(#fff, $background-color, 18%) !default;
+$code-background-color: mix(#000, $background-color, 25%) !default;
+$code-background-color-dark: mix(#000, $background-color, 35%) !default;
+$form-background-color: mix(#0f1433, $background-color, 60%) !default;
+$footer-background-color: mix(#0d1230, $background-color, 72%) !default;
+$link-color: $primary-color !default;
+$link-color-hover: #00e0ff !default;
+$link-color-visited: mix(#64b5f6, $link-color, 40%) !default;
+$masthead-link-color: $text-color !default;
+$masthead-link-color-hover: mix(#000, $text-color, 20%) !default;
+$navicon-link-color-hover: mix(#000, $background-color, 20%) !default;
+
+/* notices */
+$notice-background-mix: 88% !default;
+$code-notice-background-mix: 92% !default;
+
+/* pulse syntax highlighting (base16 inspired) */
+$base00: #0b0f2b !default;
+$base01: #1a2246 !default;
+$base02: #222c57 !default;
+$base03: #3a4476 !default;
+$base04: #e2ecff !default;
+$base05: #f8fbff !default;
+$base06: #ffffff !default;
+$base07: #ffffff !default;
+$base08: #ff6b6b !default;
+$base09: #ffb86c !default;
+$base0a: #ffd166 !default;
+$base0b: #7cffcb !default;
+$base0c: #4dd0e1 !default;
+$base0d: #64b5f6 !default;
+$base0e: #c792ea !default;
+$base0f: #f28b82 !default;
+
+@keyframes pulseGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes pulseGlow {
+  0% {
+    box-shadow: 0 0 0px rgba(0, 224, 255, 0.45);
+  }
+
+  50% {
+    box-shadow: 0 0 25px rgba(124, 255, 203, 0.45);
+  }
+
+  100% {
+    box-shadow: 0 0 0px rgba(0, 224, 255, 0.45);
+  }
+}
+
+body {
+  background: linear-gradient(120deg, rgba(124, 255, 203, 0.18), rgba(0, 224, 255, 0.16), rgba(111, 66, 193, 0.18)),
+    $background-color;
+  background-size: 320% 320%;
+  animation: pulseGradient 18s ease infinite;
+}
+
+.masthead,
+.page__footer,
+.sidebar {
+  background: linear-gradient(135deg, #0f1433, #1b2b5a, #26163f);
+  background-size: 260% 260%;
+  animation: pulseGradient 14s ease infinite;
+}
+
+.pagination--pager,
+.btn,
+.btn--primary,
+input[type="submit"],
+button[type="submit"] {
+  background: linear-gradient(135deg, #00e0ff, #7cffcb, #9c6bff);
+  background-size: 250% 250%;
+  animation: pulseGradient 12s ease infinite, pulseGlow 6s ease-in-out infinite;
+  border: none;
+  color: #0b0f2b;
+  text-shadow: 0 1px 8px rgba(9, 10, 32, 0.35);
+}
+
+a,
+.page__title a {
+  animation: pulseGradient 18s linear infinite;
+  background-image: linear-gradient(90deg, #7cffcb, #00e0ff, #c792ea);
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+a:hover,
+a:focus,
+.page__title a:hover,
+.page__title a:focus {
+  background-position: 100% 50%;
+}
+
+.author__urls.social-icons i,
+.author__urls.social-icons .svg-inline--fa,
+.page__footer-follow .social-icons i,
+.page__footer-follow .social-icons .svg-inline--fa  {
+  color: inherit;
+}

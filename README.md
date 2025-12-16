@@ -21,7 +21,7 @@ Minimal Mistakes is a flexible two-column Jekyll theme, perfect for building per
 - Bundled as a "theme gem" for easier installation/upgrading.
 - Compatible with GitHub Pages.
 - Support for Jekyll's built-in Sass/SCSS preprocessor.
-- Nine different skins (color variations).
+- Ten different skins (color variations), including the animated `pulse` option.
 - Several responsive layout options (single, archive index, search, splash, and paginated home page).
 - Optimized for search engines with support for [Twitter Cards](https://dev.twitter.com/cards/overview) and [Open Graph](http://ogp.me/) data.
 - Optional [header images](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#headers), [custom sidebars](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#sidebars), [table of contents](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#table-of-contents), [galleries](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#gallery), related posts, [breadcrumb links](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#breadcrumb-navigation-beta), [navigation lists](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#navigation-list), and more.
@@ -31,7 +31,7 @@ Minimal Mistakes is a flexible two-column Jekyll theme, perfect for building per
 
 ## Skins (color variations)
 
-This theme comes in nine different skins (in addition to the default one).
+This theme comes in ten different skins (in addition to the default one). The animated `pulse` skin adds shifting neon gradients for a dynamic look.
 
 | `air` | `contrast` | `dark` |
 | --- | --- | --- |

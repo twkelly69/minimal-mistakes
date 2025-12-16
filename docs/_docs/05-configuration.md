@@ -24,6 +24,8 @@ skins:
     description: Purple reigns supreme.
   - name: sunrise
     description: Oranges and red.
+  - name: pulse
+    description: Animated gradients with soft neon shifts.
 ---
 
 Settings that affect your entire site can be changed in [Jekyll's configuration file](https://jekyllrb.com/docs/configuration/): `_config.yml`, found in the root of your project. If you don't have this file you'll need to copy or create one using the theme's [default `_config.yml`](https://github.com/mmistakes/minimal-mistakes/blob/master/_config.yml) as a base.
@@ -48,7 +50,7 @@ theme: minimal-mistakes-jekyll
 Easily change the color scheme of the theme using one of the provided "skins":
 
 ```yaml
-minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "pulse"
 ```
 
 **Note:** If you have made edits to the theme's CSS files be sure to update [`/assets/css/main.scss`](https://github.com/mmistakes/minimal-mistakes/blob/master/assets/css/main.scss) to include {% raw %}`@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin`{% endraw %} before the `minimal-mistakes` import.
