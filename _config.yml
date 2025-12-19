@@ -17,11 +17,11 @@ minimal_mistakes_skin    : "pulse" # "air", "aqua", "contrast", "dark", "dirt", 
 # Site Settings
 locale                   : "zh-TW"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "我的筆記花園"
+title                    : "股癌 Gooaye 投資筆記"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "匿名創作者"
-description              : "以繁體中文整理想法、計畫與靈感的個人空間。"
+subtitle                 : "以輕鬆易懂的方式分享投資觀點與時事"
+name                     : "股癌 Gooaye"
+description              : "股癌（Gooaye）由謝孟恭創立，透過 Podcast 以深入淺出的方式分享金融投資知識與海內外時事，讓新手與老手都能輕鬆理解市場脈動。"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -113,9 +113,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "匿名創作者"
+  name             : "謝孟恭（股癌 Gooaye）"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "以文字紀錄生活、工作與學習，分享觀點與靈感。"
+  bio              : "股癌 Podcast 主理人，專注用親切語氣解讀市場與投資策略，陪伴聽眾在金融世界中穩定成長。"
   location         : "Taiwan"
   email            :
   links:
